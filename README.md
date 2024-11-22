@@ -24,6 +24,7 @@ The project integrates data from the following sources:
 - Standardized and normalized data fields (e.g., consistent date formats and price representations).
 - Joined datasets:
   - **Sales Data** and **Product Data** were merged based on a shared key to create a unified dataset for analysis.
+<img width="1440" alt="Screenshot 2024-11-22 at 7 03 58 AM" src="https://github.com/user-attachments/assets/49825acb-abd6-4ac7-96ed-a1e9da5c92d2">
 
 #### Python & Pandas
 - Post-SQL, used Python for further data transformation and analysis:
@@ -34,6 +35,7 @@ The project integrates data from the following sources:
     - **Return and exchange rates** by product.
     - Revenue breakdown by size, material, and color.
   - Derived insights on profitability relative to production costs and base prices.
+<img width="1440" alt="Screenshot 2024-11-22 at 7 30 03 AM" src="https://github.com/user-attachments/assets/99b9c3fa-c8f9-40d7-8e73-437f8587a8bc">
 
 ---
 
@@ -72,7 +74,8 @@ I created an interactive Tableau dashboard to visualize the analysis, including:
 - **Profitability Metrics**:
   - Comparative analysis of product profitability relative to base prices.
 
----
+---<img width="1440" alt="Screenshot 2024-11-22 at 7 02 25 AM" src="https://github.com/user-attachments/assets/fb74a1d7-94e8-4cb0-bcbb-02759744ed04">
+
 
 ## Tools & Technologies Used
 
