@@ -1,41 +1,99 @@
-Project Overview
-This project involves analyzing t-shirt sales data from three different datasets: Customer Data, Sales Data, and Product Data. The goal of the analysis was to uncover trends in sales performance, customer behavior, and product profitability. I cleaned and transformed the data using SQL and Python, visualized the insights using Tableau, and drafted business recommendations based on the findings.
+# T-Shirt & Hoodie Sales Data Analysis and Visualization
 
-Datasets
-The project consists of the following three datasets:
+## Project Overview
 
-Customer Data: Information about customers, including their demographics and membership status.
-Sales Data: Records of individual sales transactions, including the date, item, quantity, price, and customer ID.
-Product Data: Information about the products, such as product type (e.g., shirt or hoodie), size, color, material, etc.
-Data Cleaning and Transformation
-SQL
-Data Cleaning:
-I cleaned the datasets by removing any duplicates and handling missing values.
-Standardized and normalized data where necessary (e.g., consistent formats for dates, prices, etc.).
-Data Joining:
-I joined two of the three tables (Sales Data and Product Data) in SQL based on a shared field, allowing for a more comprehensive analysis of sales trends and product characteristics.
-Python & Pandas
-After the initial data cleaning, I used Python and the Pandas library for further analysis.
-I performed operations like:
-Grouping and aggregating data to identify top-selling products, customer preferences, and product profitability.
-Calculating metrics such as the number of items returned or exchanged, the number of sales by product category (e.g., color, material, type), and the total revenue generated from each product type.
-Analyzing customer behavior, including identifying which customers were rewards members and which had the highest purchasing patterns.
-Data Analysis & Insights
-Using the cleaned data, I uncovered several key business insights:
+This project analyzes t-shirt and hoodie sales data using three datasets: **Customer Data**, **Sales Data**, and **Product Data**. The goal of the analysis was to uncover trends in sales performance, customer behavior, and product profitability. By cleaning and transforming the data using **SQL** and **Python**, and visualizing insights with **Tableau**, I identified actionable business recommendations to optimize profitability and guide strategic decisions.
 
-Top Products: I identified the most profitable items based on sales performance, including factors such as product type (shirt or hoodie), color, material, and size.
-Returns & Exchanges: I analyzed which items were returned or exchanged the most, providing insights into potential quality issues or customer dissatisfaction.
-Rewards Members: I examined the purchasing behavior of customers who were rewards members versus non-members, identifying trends and opportunities for customer loyalty programs.
-Product Trends: Through aggregating and analyzing data, I determined which product categories (e.g., color, size, material) were the most popular among customers, helping businesses target the right inventory mix.
-Data Visualization
-I used Tableau to visualize the results of my analysis and create an interactive dashboard. The dashboard provides a comprehensive view of the following:
+---
 
-Sales performance by product type, color, material, and size.
-Customer behavior trends, including purchases by rewards members.
-Product return/exchange rates.
-Insights into the most and least profitable items.
-Tools & Technologies Used
-SQL for data cleaning and joining datasets.
-Python (Pandas) for data analysis and trend identification.
-Tableau for data visualization and dashboard creation.
-Jupyter Notebooks for exploratory data analysis and creating visualizations with Python.
+## Datasets
+
+The project integrates data from the following sources:
+1. **Customer Data**: Details about customers, including demographics and membership status.
+2. **Sales Data**: Records of individual sales transactions, including date, item, quantity, price, and customer ID.
+3. **Product Data**: Information about product attributes such as type (e.g., shirt or hoodie), size, color, material, and price.
+
+---
+
+## Workflow and Tools Used
+
+### 1. **Data Cleaning and Transformation**
+
+#### SQL
+- Removed duplicates and handled missing values to ensure data integrity.
+- Standardized and normalized data fields (e.g., consistent date formats and price representations).
+- Joined datasets:
+  - **Sales Data** and **Product Data** were merged based on a shared key to create a unified dataset for analysis.
+
+#### Python & Pandas
+- Post-SQL, used Python for further data transformation and analysis:
+  - Grouped and aggregated data to identify trends in sales and customer preferences.
+  - Calculated key metrics such as:
+    - **Profitability by product type** (e.g., shirts vs. hoodies).
+    - **Customer purchasing behavior**, including rewards membership impact.
+    - **Return and exchange rates** by product.
+    - Revenue breakdown by size, material, and color.
+  - Derived insights on profitability relative to production costs and base prices.
+
+---
+
+### 2. **Data Analysis & Insights**
+
+Using the cleaned data, I uncovered several valuable insights:
+
+1. **Top Products**:
+   - Identified the most profitable items based on sales trends, factoring in type, color, material, and size.
+
+2. **Customer Behavior**:
+   - Compared purchasing patterns of rewards members versus non-members.
+   - Identified customers with the highest lifetime value to target retention efforts.
+
+3. **Product Performance**:
+   - Analyzed the profitability of products relative to their base prices and production volumes.
+   - Discovered product categories (e.g., materials or colors) that performed better based on revenue and customer preferences.
+
+4. **Returns & Exchanges**:
+   - Highlighted products with the highest return/exchange rates, offering insights into potential quality or satisfaction issues.
+
+---
+
+ 3. **Data Visualization**
+
+#### Tableau Dashboards
+I created an interactive Tableau dashboard to visualize the analysis, including:
+- **Sales Performance**:
+  - Profitability by product type, size, color, and material.
+  - Trends in revenue generation by category.
+- **Customer Insights**:
+  - Purchasing patterns and rewards membership analysis.
+  - Customer segmentation by behavior and value.
+- **Product Returns/Exchanges**:
+  - Visualizations highlighting frequently returned items and possible causes.
+- **Profitability Metrics**:
+  - Comparative analysis of product profitability relative to base prices.
+
+---
+
+## Tools & Technologies Used
+
+- **SQL**: Data cleaning, transformation, and joining datasets.
+- **Python (Pandas, Numpy, Matplotlib)**: Exploratory data analysis, grouping, and calculating custom metrics.
+- **Tableau**: Visualization and creation of interactive dashboards.
+- **Excel**: Quick cross-checks and summaries.
+- **Jupyter Notebooks**: Data exploration and analysis scripting.
+
+---
+
+## Key Features of the Project
+
+- Integrated multiple datasets to provide a holistic view of sales performance and customer behavior.
+- Created calculated metrics and insights such as:
+  - Profit per unit.
+  - Profit as a percentage of base price.
+  - Customer loyalty trends.
+- Built interactive Tableau dashboards to deliver actionable insights for stakeholders.
+
+---
+
+## File Structure
+
